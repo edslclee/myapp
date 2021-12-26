@@ -1,3 +1,4 @@
+회사에서 할일
 1. 나의 작업 PC에 git workspace 만들기
    - git 처음 설정 
      $ git config --global user.name "John Doe"
@@ -8,7 +9,19 @@
      $ git add .
      $ git commit -m "Project initial setup"
 2. github에 repository 만들기
-    - PC에 만든 Company에 만든 myapp과 동일한 이름으로 myapp repository생성
+    - PC에 만든 company에 만든 myapp과 동일한 이름으로 myapp repository생성
 3. git remote add origin + repossitory의 주소 
     -  git remote add origin https://github.com/edslclee/myapp.git 
 4. git push origin master 명령어로 파일 업로드 및 병합
+
+집에서 할일
+1. 나의 작업 PC에 git workspace 만들기
+   - git 처음 설정 
+     $ git config --global user.name "John Doe"
+     $ git config --global user.email johndoe@example.com 
+   - Home Directory밑에 myapp directory를 git directory로 만듬
+     $ git init
+2 . git remote add origin + repossitory의 주소 
+    -  git remote add origin https://github.com/edslclee/myapp.git 
+3. git pull origin master 명령어로 파일 다운로드
+
